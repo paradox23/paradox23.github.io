@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://paradox23.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 19:53:30 +0800</lastBuildDate><atom:link href="https://paradox23.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>111</title>
+      <link>https://paradox23.github.io/post/blog/</link>
+      <pubDate>Sat, 03 Jul 2021 19:53:30 +0800</pubDate>
+      
+      <guid>https://paradox23.github.io/post/blog/</guid>
+      <description> 搜索 aaa </description>
+    </item>
+    
+    <item>
+      <title>222</title>
+      <link>https://paradox23.github.io/post/id/</link>
+      <pubDate>Sat, 03 Jul 2021 19:53:30 +0800</pubDate>
+      
+      <guid>https://paradox23.github.io/post/id/</guid>
+      <description>获取表下一个id：   获取id函数  call pNextID(&#39;tablename&#39;,v_NextID)- 之后select v_NextID+(row_number() over())-1就可以按照需要插入的数据量相加来当做id之后更新下tSequence表UPDATE tSequence SET ID=(SELECT nvl(max(ID),1) FROM HRM_EmpQuery) WHERE NAME =&#39;HRM_EmpQuery&#39;;DELETE TSEQUENCE WHERE NAME=&#39;HRM_EmpInfoSet&#39;;INSERT INTO TSEQUENCE(NAME,id)SELECT &#39;HRM_EmpInfoSet&#39;,max(id) FROM HRM_EmpInfoSet;111</description>
+    </item>
+    
+  </channel>
+</rss>
